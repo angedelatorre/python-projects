@@ -23,13 +23,13 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
-challenge1 = input("1st Challenge:\nChoose Left or Right, write L or R: ")
+challenge1 = input("1st Challenge:\nChoose Left or Right, write L or R: ").lower()
 if challenge1 == "L":
     print("Great,You choose the right path! You will now go to the island!!")
-    challenge2 = input("2nd Challenge:\nYou want to swim? Write 'S' or You want to wait? Write 'W': " )
+    challenge2 = input("2nd Challenge:\nYou want to swim? Write 'S' or You want to wait? Write 'W': " ).lower()
     if challenge2 == "W":
         print("You arrived safely. There are room for you to stay, go straight and select a room thats has different door colors!")
-        challenge3 = input("3rd Challenge[Final]:\nWhich door you want to choose? Choose Carefully\nRed = 'R'\nYellow = 'Y'\nBlue = 'B'\nYou Choose: ")
+        challenge3 = input("3rd Challenge[Final]:\nWhich door you want to choose? Choose Carefully\nRed = 'R'\nYellow = 'Y'\nBlue = 'B'\nYou Choose: ").lower()
         if challenge3 == "Y":
             print("Premium Stay! Have a good night and see you tomorrow!")
         if challenge3 == "R":
